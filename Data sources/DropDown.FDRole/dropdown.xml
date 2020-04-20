@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dropdowns>
+  <dropdown>
+    <parameter name="EntityName">
+      <add key="AllUsers" value="roles"/>
+      <add key="Sweden" value="roles"/>
+    </parameter>
+    <parameter name="Query">
+      <add key="AllUsers" value="query=email='$search'"/>
+      <add key="Sweden" value="query=email='$search'"/>
+    </parameter>
+    <output>
+      <add key="Id" value="id"/>
+      <add key="Name" value="name"/>
+    </output>
+  </dropdown>
+</dropdowns>
